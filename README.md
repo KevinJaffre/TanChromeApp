@@ -1,7 +1,7 @@
 # TanChromeApp
 Chrome app - bus timetable (using Tan API)
 
-![App presentation](/img/pres.png)
+![App presentation](/img/app.png)
 
 ##Bus timetable Nantes (Tan)
 
