@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 400px;
+  color: #4d4d4d;
+  padding: 0 25px;
+}
+
+header {
+  border-bottom: solid 1px #bebebe;
+  padding-bottom: 10px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: lighter;
+  text-align: center;
+}
+
+h1 strong {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.time {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.time span {
+  border: solid 1px #4d4d4d;
+  text-transform: uppercase;
+  font-size: 24px;
+  display: inline-block;
+  line-height: 55px;
+  padding: 0 30px 0 20px;
+}
+
+.time span:before {
+  background: url('img/clock.png') no-repeat top center;
+  display: inline-block;
+  vertical-align: middle;
+  content: '';
+  width: 22px;
+  height: 22px;
+  margin-right: 20px;
+  padding-top: 6px;
+}
+
+.passages {
+  font-size: 16px;
+}
+
+.passages ul {
+  display: inline-block;
+  width: 209px;
+}
+
+.passages li {
+  display: inline-block;
+  text-align: center;
+  width: 50%;
+}
+
+.btn {
+  position: relative;
+  width: 350px;
+  line-height: 50px;
+  font-size: 18px;
+  color: #fff;
+  text-align: center;
+  box-shadow: 0px 12px 27px 0px rgba(0, 0, 0, 0.31);
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.btn-primary {
+  background-color: #4dc184;
+}
+
+.btn-primary:before {
+  background: url('img/run.png') no-repeat top center;
+  display: block;
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 20px;
+  margin: auto;
+  width: 31px;
+  height: 35px;
+}
+
+.btn-alert {
+  background-color: #d05c5c;
+}
+
+.btn-alert:before {
+  background: url('img/cross.png') no-repeat top center;
+  display: block;
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 20px;
+  margin: auto;
+  width: 22px;
+  height: 22px;
+}
