@@ -78,7 +78,7 @@ ul {
   font-size: 18px;
   color: #fff;
   text-align: center;
-  box-shadow: 0px 12px 27px 0px rgba(0, 0, 0, 0.31);
+  box-shadow: 0px 9px 16px 0px rgba(0, 0, 0, 0.3);
   border: none;
   outline: none;
   cursor: pointer;
@@ -88,6 +88,10 @@ ul {
 
 .btn-primary {
   background-color: #4dc184;
+}
+
+.btn-primary:hover {
+  background-color: #2eaa68;
 }
 
 .btn-primary:before {
@@ -105,6 +109,10 @@ ul {
 
 .btn-alert {
   background-color: #d05c5c;
+}
+
+.btn-alert:hover {
+  background-color: #aa2e2e;
 }
 
 .btn-alert:before {
